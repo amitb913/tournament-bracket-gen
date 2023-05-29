@@ -1,0 +1,26 @@
+@import "../../util/vars";
+
+.buttonContainer {
+  background-color: $primary-color;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px 40px;
+  margin: 0px 10px;
+  // padding-left: 40px;
+  // padding-right: 40px;
+}
+
+.buttonContainer:hover {
+  background-color: $primary-color-dark;
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.buttonContainer:active {
+  scale: 1;
+  transform: translateY(2px);
+}
+
+.buttonText {
+  margin: 0px;
+}

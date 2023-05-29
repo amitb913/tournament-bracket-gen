@@ -1,0 +1,66 @@
+.createBracketScreenContainer {
+  align-items: center;
+  padding: 0% 10% 10%;
+}
+
+#bracketNameInput {
+  border-radius: 10px;
+  font-size: 28px;
+  font-family: "Pangolin", sans-serif;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.numPlayersRow {
+  display: flex;
+
+  // flex-direction: row;
+}
+
+.numPlayersControlRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 90px;
+  // background-color: red;
+}
+
+.unselectable {
+  user-select: none;
+}
+
+.arrowButton {
+  // margin: 0px 10px;
+}
+
+.arrowButton:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.arrowButton:active {
+  scale: 0.92;
+}
+
+.bracketContainer {
+  position: relative;
+}
+
+.svgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#createBracketScreenHeaderRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
